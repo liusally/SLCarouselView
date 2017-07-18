@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PureLayout/PureLayout.h>
 
 //! Project version number for SLCarouselView.
 FOUNDATION_EXPORT double SLCarouselViewVersionNumber;

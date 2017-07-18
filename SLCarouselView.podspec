@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.summary      = "A simple carousel view in Swift with page control."
   s.description  = <<-DESC
-                    Swift carousel view
+                    A simple Instagram-like carousel view in Swift with page control.
                    DESC
   s.homepage     = "https://github.com/liusally/SLCarouselView"
 
@@ -47,10 +47,7 @@ Pod::Spec.new do |s|
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  # s.framework  = "UIKit"
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  # s.dependency "PureLayout", "~> 3.0.2"
+  s.framework  = "UIKit"
+  s.dependency "PureLayout"
 
 end
