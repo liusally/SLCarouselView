@@ -1,0 +1,6 @@
+framework module Pods_SLCarouselViewExample {
+  umbrella header "Pods-SLCarouselViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

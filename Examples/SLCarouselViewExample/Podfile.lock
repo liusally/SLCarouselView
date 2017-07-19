@@ -1,0 +1,30 @@
+PODS:
+  - PureLayout (3.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SLCarouselView (0.1.3):
+    - PureLayout
+
+DEPENDENCIES:
+  - PureLayout
+  - SDWebImage
+  - SLCarouselView (from `https://github.com/liusally/SLCarouselView.git`)
+
+EXTERNAL SOURCES:
+  SLCarouselView:
+    :git: https://github.com/liusally/SLCarouselView.git
+
+CHECKOUT OPTIONS:
+  SLCarouselView:
+    :commit: 0afa99dacadb24e763ac235f70f7f87e54cfce13
+    :git: https://github.com/liusally/SLCarouselView.git
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SLCarouselView: dbc85d2fbc4216a10b818bf41cf5b2f589f11b5b
+
+PODFILE CHECKSUM: 6d73f78e34a7b1d32d1357c53adaa3d15532ef85
+
+COCOAPODS: 1.2.0

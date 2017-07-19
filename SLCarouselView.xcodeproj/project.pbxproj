@@ -37,6 +37,7 @@
 		43A79B8B1F1E812A007ACA8E = {
 			isa = PBXGroup;
 			children = (
+				43BC3C341F1FF96200912C0E /* Examples */,
 				43A79B971F1E812A007ACA8E /* SLCarouselView */,
 				43A79B961F1E812A007ACA8E /* Products */,
 				A346A929FEC04DD5B2446E97 /* Pods */,
@@ -60,6 +61,13 @@
 				43A79B991F1E812A007ACA8E /* Info.plist */,
 			);
 			path = SLCarouselView;
+			sourceTree = "<group>";
+		};
+		43BC3C341F1FF96200912C0E /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 		66A0F529A51EBF0473A7E9FE /* Frameworks */ = {

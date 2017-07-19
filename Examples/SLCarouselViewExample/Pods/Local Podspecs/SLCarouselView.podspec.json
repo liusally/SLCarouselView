@@ -1,0 +1,26 @@
+{
+  "name": "SLCarouselView",
+  "version": "0.1.3",
+  "summary": "A simple carousel view in Swift with page control.",
+  "description": "A simple Instagram-like carousel view in Swift with page control.",
+  "homepage": "https://github.com/liusally/SLCarouselView",
+  "license": "MIT",
+  "authors": {
+    "Shali Liu": "sally.lyu@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/liusally/SLCarouselView.git",
+    "tag": "0.1.3"
+  },
+  "source_files": "SLCarouselView/*.{swift}",
+  "exclude_files": "Classes/Exclude",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "PureLayout": [
+
+    ]
+  }
+}

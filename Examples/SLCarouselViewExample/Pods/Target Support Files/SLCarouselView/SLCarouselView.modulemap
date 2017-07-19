@@ -1,0 +1,6 @@
+framework module SLCarouselView {
+  umbrella header "SLCarouselView-umbrella.h"
+
+  export *
+  module * { export * }
+}
