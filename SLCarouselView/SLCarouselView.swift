@@ -10,7 +10,7 @@ import Foundation
 import PureLayout
 
 
-class SLCarouselView: UIView, UIScrollViewDelegate {
+public class SLCarouselView: UIView, UIScrollViewDelegate {
     
     // Main scroll view
     fileprivate var scrollView: UIScrollView = UIScrollView()
@@ -26,7 +26,7 @@ class SLCarouselView: UIView, UIScrollViewDelegate {
     fileprivate let PAGECONTROL_WIDTH = CGFloat(200)
     fileprivate let PAGECONTROL_HEIGHT = CGFloat(20)
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         self.addSubview(self.scrollView)
@@ -96,7 +96,7 @@ class SLCarouselView: UIView, UIScrollViewDelegate {
         
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
         let pageWidth = self.scrollView.frame.size.width;
         let page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
