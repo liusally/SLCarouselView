@@ -58,7 +58,7 @@ public class SLCarouselView: UIView, UIScrollViewDelegate {
         
     }
     
-    func appendContent(view: UIView) {
+    public func appendContent(view: UIView) {
         
         let preView = self.contentView.subviews.last
         

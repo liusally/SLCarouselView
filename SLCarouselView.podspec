@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "SLCarouselView"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "A simple carousel view in Swift with page control."
   s.description  = <<-DESC
                     A simple Instagram-like carousel view in Swift with page control.
