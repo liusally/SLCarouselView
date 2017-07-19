@@ -6,7 +6,6 @@ This library provides an carousel view can be used to create Instagram carousel-
 
 - [x] Display a carousel view with images, vidoes or other customized views.
 - [x] Use auto layout, easy to use.
-- [x] Example shows how to display both images and videos in the carousel view.
 - [x] This view is built for the simple case of using scrollview with page control, easy to revise based on your own needs.
 
 ## What the Carousel View DON'T DO
