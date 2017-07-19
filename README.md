@@ -10,9 +10,9 @@ This library provides an carousel view can be used to create Instagram carousel-
 
 ## What the Carousel View DON'T DO
 
-- [x] Add or remove view from carousel during run time.
-- [x] Customize the size of view within the carousel view. 
-- [x] Customize the position of page control.
+- Add or remove view from carousel during run time.
+- Customize the size of view within the carousel view. 
+- Customize the position of page control.
 
 Note: this view is built for being used across a few of my own projects, if anyone finds it useful and want to tune it for their own project, feel free to ask questions.
 
