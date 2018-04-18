@@ -46,7 +46,7 @@ self.carouselView.appendContent(view: imageView)
 
 ## Installation
 
-There are two ways to use SDWebImage in your project:
+There are two ways to use SLCarouselView in your project:
 - using CocoaPods
 - by copy `SLCarouselView.swift` into your repository
 
